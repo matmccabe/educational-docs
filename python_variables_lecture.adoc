@@ -1,0 +1,124 @@
+= Introduction to Python variables 
+
+Let’s look at some basic Python variables. Variables are the basic building blocks of any program. We will use these variables in order to create our very first Python program! 
+
+Variables can be used in diverse ways, allowing our program to be easily read and built upon.
+
+
+A variable is utilized in order to store a unit of data within the Python language. 
+
+A variable is defined by an identifier or name on the left side of an `=`. The value will then be determined by what is input on the right side of the `=`.
+
+To better understand this, let’s discuss the example below: 
+
+`num = 4`
+
+In this example, the variable defined is `num` 
+[NOTE]
+====
+In Python, it is common practice that variables be named in all lower case letters. If the variable contains multiple words, they are seperated by an underscore `num_top`. Variable names are case sensitive, and cannot begin with an integer.  
+====
+
+The variable `num` has been assigned a value of `4`. This means that the program interprets a value of `4` every time the variable `num` is called upon. The variable can now be included in more advanced commands, such as mathematical equations.
+
+Lets looks at the statement: `print(num + 4)` 
+The statement above will return a value of `8`. This is because Python recognizes the value we assigned to `num`, and then added `4`.
+
+
+Let’s look at another example with Python strings. In the first lecture, we printed `hello world` as a single statement. Let’s create that using variables! 
+
+`p = “hello”`
+`w = “world”` 
+
+Above we have two variables containing strings. Lets print these variables in order to create a sentence.
+
+[NOTE] 
+====
+In order to add a space into our sentence, we will represent it with a string that looks like this: `“ “`
+====
+
+`print(p + “ “ + w)`                     
+
+The above statement will return a value of `hello world`. Now that we have learned what a variable is, we can put our knowledge to use with a short activity! 
+
+== Creating statements using variables 
+
+In this exercise, we will put our new knowledge of variables to the test by creating a variety of statements. We will be able to demonstrate a real-world scenario using only our basic knowledge of variables. 
+
+We will start by creating a bank account for a fictional person. Once we create the account, we will use our knowledge of variables to deposit and withdraw funds from the fictional bank account! 
+
+==== Exercise 1:
+Create a group of variables to represent some information about an individual. The variables should include information such as name, birth year, and balance. These values should all be entered into their own unique variables. 
+
+[TIP] 
+====
+The balance should be accurate to the cent. This can be represented by a float data type! 
+====
+
+Here is how your solution should look:
+
+`name = “John Smith”`
+`birth_year = 2000` 
+`acct_num = 12345`
+`acct_bal = 15.50` 
+
+[NOTE] 
+====
+The variables names and values can be whatever you make them. Just be sure that the variable names follow conventional Python rules such as no capital letters, underscores, and no special characters. 
+====
+
+==== Exercise 2:
+Create a new variable to calculate the age of the account holder. In this case, we want to find out how old the account holder is. Once the variable is created, use the print function to return the age of the account holder. 
+
+[TIP] 
+====
+In our new variable, subtract the birth year from the current year. 
+====
+
+Here is how your solution should look:
+
+`age = 2021 - birth_year` 
+`print(age)`
+`21`
+
+
+==== Exercise 3:
+For our last exercise, we will make a deposit into the bank account. 
+
+
+Create a statement that will increase the amount in `acct_bal` by `50.00` without creating a new variable. Instead, we want to alter our existing variable.  
+
+Here is how your solution should look: 
+
+`acct_bal = acct_bal + 50.00`
+`print(acct_bal)`
+`65.50`
+
+But wait! This can also be done with other math functions. Try subtracting from the bank account. 
+
+Here is how your solution should look: 
+
+`acct_bal = acct_bal - 5.00`
+`print(acct_bal)`
+`60.50`
+
+Congratulations! You have completed a real world application of a computer program using Python. The last step on our skill assessment will be a short quiz to test what you have learned in this chapter. 
+
+==== Quiz Question 1: 
+Given the following information, select the proper print statement that will return the account holders name, age, and account balance.
+The solution should return `John Smith 21 60.50`.
+
+A: `print(name + “ “ + Age + “ “ + acct_bal)`
+B: `print(name + “ “ + age + “ “ + acct_bal)`
+C: `print(name + age + acct_bal)`
+D: `print(name “ “ age “ “ acct_bal)`
+
+A is incorrect because the variable `Age` is capitalized, and therefore not the same as the variable `age`. Remember, variables in Python are case sensitive. 
+
+B is the correct answer. 
+
+C is incorrect because there are no spaces between the variables.
+
+D is incorrect because it is not the proper syntax for Python. 
+
+Great work! We are on our way to becoming Python variable experts! With just these few examples we have explored just how powerful the Python language is. In our next lesson we learn about numbers and logic in order to create our very first interactive project! 
